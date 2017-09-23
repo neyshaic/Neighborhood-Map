@@ -1,0 +1,53 @@
+.title {
+  font-size: 25px;
+}
+/*Padding on how far apart the names are from each other.*/
+.list {
+    padding: 20px 0px 0px 0px;
+}
+.api_logo {
+    right: 0;
+    bottom: 2px;
+    width: 40%;
+    position: absolute;
+  }
+/*Map is having troubles display error*/
+  .error_map {
+      position: absolute;
+      color: white;
+      text-align: center;
+      top: 50%;
+      width: 100%;
+      }
+/*How far out it goes once open*/
+.sidebar_depth {
+    min-width: 300px;
+}
+/*Information box setting for the actual places*/
+.loc_name {
+    font-size: 1em;
+}
+.loc_address {
+    margin-bottom: 2px;
+    font-size: 1em;
+}
+.address {
+    margin-bottom: 0;
+    font-size: 1em;
+}
+.info {
+    font-size: 1em;
+}
+.search_bar {
+    width: 100%;
+    font-size: 1em;
+}
+
+/* Mobile Query*/
+@media (max-width: 768px) {
+    .search_bar {
+        margin-top: 5px;
+        font-size: 1em;
+
+    }
+}
